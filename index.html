@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Student Registration Form</title>
+</head>
+<body>
+    <form>
+
+        <table border="0" width="400px" align="center" bgcolor="#8DD1B7 "> 
+           <tr>
+            <td>
+                <table width="100%" align="center">
+                    <tr>
+                        <td width="100%">
+                            <h2> Student Registration Form</h2>
+                        </td>
+                    </tr>
+
+                </table>
+            </td>
+           </tr>
+           <tr>
+            <td>
+                <table width="100%" align="center">
+                    <tr>
+                        <td  width="30%">
+                            <label for="first">First Name </label><br>
+                            <label for="last">Last Name </label>
+                        </td>
+                        <td  width="70%">
+                            <input type="text" name="" id="first" placeholder="Enter your first name" minlength="4" maxlength="20" required><br>
+                            <input type="text" name="" id="last" placeholder="Enter your last name" minlength="4" maxlength="20" required><br>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+           </tr>
+           <tr>
+            <td>
+                <table width="100%" align="center">
+                    <tr>
+                        <td width="30%">
+                          <label for="gender">Gender</label>  
+                        </td>
+                        <td width="70%">
+                            <input type="radio" name="gender" id="male">
+                            <label for="male">Male</label>
+                            <input type="radio" name="gender" id="female">
+                            <label for="female">Female</label>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+           </tr>
+           <tr>
+            <td>
+                <table width="100%" align="center">
+                    <tr>
+                        <td width="30%">
+                            <label for="age">Age</label>
+                        </td>
+                        <td width="70%">
+                            <input type="text" name="" id="age" placeholder="Enter your age" minlength="4" maxlength="20" required>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+           </tr>
+           <tr>
+            <td>
+                <table width="100%" align="center">
+                <tr>
+                    <td width="30%">
+                        <label for="birth">Date of Birth</label>
+                    </td>
+                    <td width="70%">
+                        <input type="date" name="" id="birth" required >
+                    </td>
+                </tr>
+            </table>
+            </td>
+        </tr>
+           <tr>
+                <td>
+                    <table width="100%" align="center">
+                        <tr>
+                            <td width="30%">
+                                <label for="email">Email Address </label>
+                            </td>
+                            <td width="70%">
+                                <input type="email" name="" id="email" placeholder="Type your email Address" required >
+                            </td>
+                        </tr>
+                    </table>
+            </td>
+           </tr>
+           <tr>
+            <td>
+                <table width="100%" align="center">
+                      
+                    <tr>
+                        <td width="30%">
+                            <label for="password1">Password</label>
+                        </td>
+                        <td width="70%">
+                            <input type="password" name="" id="password1" placeholder="Type your password" required>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+           </tr>
+           <tr>
+            <td>
+                <table width="100%" align="center">
+                    <tr>
+                        <td width="30%">
+                            <label for="password2">Confirm Password</label></td>
+                        <td width="70%">
+                            <input type="password" name="" id="password2" placeholder="Type your confirm password" required>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+           </tr>
+           <tr>
+            <td>
+                <table width="100%" align="center">
+                    <tr>
+                        <td width="30%">
+                            <label for="Phone">Phone number</label>
+                        </td>
+                        <td width="70%">
+                            <input type="tel" name="" id="Phone" placeholder="Enter your Phone number" required >
+                        </td>
+                    </tr>
+                </table>
+            </td>
+           </tr>
+           <tr>
+            <td>
+                <table width="100%" align="center">
+                    
+            <tr>
+                <td  width="30%">
+                    <label for="address">Address</label>
+                </td>
+                <td width="70%">
+                    <textarea name="" id="" cols="21" rows="4" placeholder="Enter your Address"></textarea>
+                </td>
+            </tr>
+                </table>
+            </td>
+           </tr>
+           <tr>
+            <td>
+                <table width="100%" align="center">
+                     
+           
+            <tr>
+                <td width="30%">
+                    <label for="state">State</label>
+                </td>
+                <td width="70%">
+                    <select name="" id="state">
+                        <option value="">United States</option>
+                        <option value="">France</option>
+                        <option value="">Italy</option>
+                        <option value="">India</option>
+                        <option value="" selected>Bangladesh</option>
+                    </select>
+                </td>
+            </tr>
+                </table>
+            </td>
+           </tr>
+           <tr>
+            <td>
+                <table width="100%" align="center">
+                    <tr>
+                        <td width="30%">
+                            <label for="zip">Zip Code</label>
+                        </td>
+                        <td width="70%">
+                            <input type="number" name="" id="zip" placeholder="Type your zip code " min="5">
+                        </td>
+                    </tr>
+                </table>
+            </td>
+           </tr>
+           <tr>
+            <td>
+                <table width="100%" align="center">
+                    <tr>
+                        <td width="30%">
+                            <label>Hobbies</label>
+                        </td>
+                        <td width="70%">
+                            <input type="checkbox" name="Music" id="music">
+                            <label for="music">Music</label>
+                            <input type="checkbox" name="Movies" id="movies">
+                            <label for="movies">Movies</label><br>
+                            <input type="checkbox" name="Sports" id="sports">
+                            <label for="sports">Sports</label>
+                            <input type="checkbox" name="Travel" id="travel">
+                            <label for="travel">Travel</label>
+                        </td>
+                    </tr>
+                        
+                </table>
+            </td>
+           </tr>
+           <tr>
+            <td>
+                <table width="100%" align="center">
+                      
+            <tr>
+                <td width="30%">
+                    <label for="Photo">Upload Photo</label>
+                </td>
+                <td width="70%">
+                    
+                    <input type="file" name="" id="Photo"><br>
+                    <label>*Max size 5MB</label>
+                </td>
+            </tr>
+                </table>
+            </td>
+           </tr>
+           <tr>
+            <td>
+                <table width="100%" align="center">
+                    <tr>
+                        <td>
+                            <input type="checkbox" name="" id="selecet">
+                            <label for="selecet">I hereby declare that the above information provided is true and correct.</label>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+           </tr>
+           <tr>
+            <td>
+                <table width="100%" align="center">
+                    <tr>
+                        <td width="50% " align="right">
+                            <button type="submit">Register</button>
+                           
+                        </td>
+                        <td  width="50% " align="left">
+                            <button type="reset">Reset</button>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+           </tr>
+           <tr>
+            <td> 
+                <p align="center">Instructed By <strong>MD SHOURAB Sir</strong></p>
+                <p align="center">Created By <b>MD AJIM MIA</b></p></td>
+        </tr>
+        </table>
+       
+        
+    </form>  
+</body>
+</html>
